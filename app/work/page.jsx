@@ -16,14 +16,13 @@ import {
   TooltipTrigger,
 } from "@/components/ui/tooltip";
 import WorkSliderBtns from "@/components/ui/WorkSliderBtns";
-
 const projects = [
   {
     num: "01",
     category: "full stack",
     title: "Efitness Ecommerce",
     description:
-      "Responsive ecommerce website that caters to wide range of fitness products ",
+      "Responsive ecommerce website that caters to wide range of fitness products.",
     stack: [
       { name: "MongoDb" },
       { name: "Express.js" },
@@ -40,7 +39,7 @@ const projects = [
     category: "full stack",
     title: "Efitness",
     description:
-      "platform for fitness enthusiasts to test their limits, track their calorie intake, and generate a variety of workouts that are flexible for their time and needs.",
+      "Platform for fitness enthusiasts to test their limits, track their calorie intake, and generate flexible workouts.",
     stack: [{ name: "Next.js" }, { name: "tailwindcss" }, { name: "MongoDb" }],
     image: "/assets/images/projects/Efitness.png",
     github: "https://github.com/AbdelbassetHmidchat1/Efitness",
@@ -51,7 +50,7 @@ const projects = [
     category: "full stack",
     title: "Fevertokens (Internship project)",
     description:
-      " FeverTokens offers a blockchain platform with advanced smart contract solutions and tokenization. Its web3 wallet offers efficient management of digital assets. ",
+      "FeverTokens offers a blockchain platform with advanced smart contract solutions and tokenization. Its web3 wallet provides efficient management of digital assets.",
     stack: [
       { name: "MongoDb" },
       { name: "Next.js" },
@@ -61,6 +60,33 @@ const projects = [
     image: "/assets/images/projects/Fevertokens.png",
     github: "https://wallet.fevertokens.io",
     live: "https://wallet.fevertokens.io",
+  },
+  {
+    num: "04",
+    category: "full stack",
+    title: "Patient Management System",
+    description:
+      "Managed over 1,700 patients with doctor appointments and encrypted medical folders. Built with Spring Boot and React.js, deployed on Azure for secure and scalable cloud infrastructure. (Graduation Project)",
+    stack: [
+      { name: "Spring Boot" },
+      { name: "React.js" },
+      { name: "MySQL" },
+      { name: "Azure" },
+    ],
+    image: "/assets/images/projects/dmpgov.png",
+    github: "https://dmpgov.omnidoc.ma",
+    live: "https://dmpgov.omnidoc.ma",
+  },
+  {
+    num: "05",
+    category: "full stack",
+    title: "Sprintify Project Management System",
+    description:
+      "A complete project management system with team chat, task tracking, and project collaboration features. Helps teams coordinate efficiently and stay organized.",
+    stack: [{ name: "Spring Boot" }, { name: "React.js" }, { name: "MySQL" }],
+    image: "/assets/images/projects/Sprintify.png",
+    github: "https://github.com/AbdelbassetHmidchat1/Sprintify/",
+    live: "#",
   },
 ];
 
@@ -149,7 +175,7 @@ function Work() {
                         <Image
                           src={project.image}
                           fill
-                          className="object-cover"
+                          className="object-fill"
                           alt="project image"
                         />
                       </div>

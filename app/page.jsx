@@ -12,21 +12,19 @@ import { useSelector } from "react-redux";
 const stats = [
   {
     title: "Project Completed",
-    num: 5,
+    num: 6,
   },
   {
     title: "Years of experience",
-    num: 4,
+    num: 2,
   },
   {
     title: "Technologies Mastered",
-    num: 6,
+    num: 12,
   },
 ];
 
 function page() {
-  
-
   return (
     <section className="h-full  ">
       <div className="container mx-auto  ">
@@ -39,9 +37,10 @@ function page() {
             </h1>
             <p className="max-w-[500px] mb-9 text-white/80">
               Young professional passionate about programming and sports,
-              excelling in both front-end and back-end technologies. Skilled at
-              creating efficient and dynamic webapps.
+              excelling in front-end, back-end, and DevOps. Skilled at creating
+              efficient, dynamic, and scalable web applications.
             </p>
+
             <div className="flex flex-col xl:flex-row gap-8 items-center justify-between">
               <a
                 href="/assets/documents/AbdelbassetCv.pdf"
